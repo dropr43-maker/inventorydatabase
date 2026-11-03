@@ -103,6 +103,7 @@ $items = mysqli_query($conn, $sql);
     <?php include "nav.php"; ?>
 
     <div class="container">
+     <a class="back" href="index.php">&larr; Back to Home</a>
         <div class="page-head">
             <h2>Items</h2>
             <button onclick="openAdd()">+ Add Item</button>
