@@ -80,7 +80,7 @@ $rows = mysqli_query($conn, "SELECT * FROM $table ORDER BY $name_column");
     <?php include "nav.php"; ?>
 
     <div class="container">
-    <a class="back" href="index.php">&larr; Back to Home</a>
+    <a class="back" href="index.php">&larr; Back </a>
         <div class="page-head">
             <h2><?php echo e($title); ?></h2>
             <button onclick="openAdd()">+ Add <?php echo e($singular); ?></button>
