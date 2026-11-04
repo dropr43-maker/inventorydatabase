@@ -9,7 +9,7 @@
     <?php include "nav.php"; ?>
 
     <div class="container">
-        <p class="subtitle">Track goods from the supplier who provides them to the moment they leave the warehouse.</p>
+        <p class="subtitle">Track goods from the supplier to the moment they leave the warehouse.</p>
 
         <div class="cards">
             <a class="card main" href="items.php">
